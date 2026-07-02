@@ -7,6 +7,8 @@ super+shift+
 s - screenshot(fast screenshot)
 c - close the program
 q - fullscreen
+w - terminal
+enter - terminal
 
 super+
 z - zoom to active program

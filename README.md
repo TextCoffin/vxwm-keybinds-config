@@ -1,4 +1,2 @@
 # vxwm config
-/*my simple config*/
-/*has my keybinds*/
-/*1.0*/
+/*1.1*/
