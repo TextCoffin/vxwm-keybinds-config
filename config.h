@@ -2,6 +2,31 @@
 /*program whitch you need(for me!)*/
 /*sudo pacman -S dmenu xclip maim playerctl*/
 
+/*okay sure, here lists of keybinds
+super+shift+
+s - screenshot(fast screenshot)
+c - close the program
+q - fullscreen
+
+super+
+z - zoom to active program
+w - dmenu mode(browse program)
+a/d - switch the program(may be useful if you lost your window)
+space - set preset 0, and try f, t
+r - move to x0 y0 coordinate
+b - hide dmenu bar
+1-9 - you may be guess
+tab - show 1-9 window
+
+alt+
+x - last track
+c - pause music
+v - next track
+
+ctr+super+alt - exit session
+*/
+
+
 /* See LICENSE file for copyright and license details. */
 /*link on author - https://github.com/wh1tepearll/vxwm/tree/main*/
 /* music const's */
@@ -10,9 +35,6 @@ static const char *medianextcmd[] = { "playerctl", "next", NULL };
 static const char *mediaprevcmd[] = { "playerctl", "previous", NULL };
 /* screenshots - xclip maim */
 static const char *screenshot_select_clip[] = { "sh", "-c", "maim -s | xclip -selection clipboard -t image/png", NULL };
-
-
-
 
 
 
@@ -136,6 +158,8 @@ static const Key keys[] = {
 	{ Mod1Mask, XK_x, spawn, {.v = mediaprevcmd} },
 
 	{ Mod4Mask|ShiftMask, XK_s, spawn, {.v = screenshot_select_clip } },
+        /*super+shift+bind*/
+
 
 	/* modifier                     key        function        argument */
 	/*dmenu bar*/
