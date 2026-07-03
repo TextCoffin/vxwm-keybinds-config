@@ -1,4 +1,4 @@
-# vxwm config *1.1*
+# vxwm keybinds config *1.1*
 *vxwm repo - https://github.com/wh1tepearll/vxwm.git*
 
 
@@ -6,10 +6,10 @@
 *arch linux*
 ```bash
 cd ~/vxwm
-git clone https://github.com/TextCoffin/vxwm-my-config.git
+git clone https://github.com/TextCoffin/vxwm-keybinds-config.git
 rm -rf config.h
-mv ~/vxwm/vxwm-my-config/config.h ~/vxwm
-rm -rf ~/vxwm/vxwm-my-config
+mv ~/vxwm/vxwm-keybinds-config/config.h ~/vxwm
+rm -rf ~/vxwm/vxwm-keybinds-config
 sudo make clean install
 ```
 *and you need exit the session(ctrl+super+alt+q)*
