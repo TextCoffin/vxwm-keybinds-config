@@ -11,10 +11,7 @@ rm -rf config.h
 mv ~/vxwm/vxwm-keybinds-config/config.h ~/vxwm
 rm -rf ~/vxwm/vxwm-keybinds-config
 sudo make clean install
-```
-*and you need exit the session(ctrl+super+alt+q)*
-
-*program for work keybinds*
-```bash
+#program for work keybinds
 sudo pacman -S dmenu xclip maim playerctl
 ```
+*and you need exit the session(ctrl+super+alt+q)*
