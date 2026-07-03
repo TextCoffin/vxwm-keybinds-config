@@ -11,5 +11,5 @@ rm -rf config.h
 mv ~/vxwm/vxwm-my-config/config.h ~/vxwm
 rm -rf ~/vxwm/vxwm-my-config
 sudo make clean install
-logout
 ```
+*and you need exit the session(ctrl+super+alt+q)*
