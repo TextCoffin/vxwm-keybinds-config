@@ -13,3 +13,8 @@ rm -rf ~/vxwm/vxwm-keybinds-config
 sudo make clean install
 ```
 *and you need exit the session(ctrl+super+alt+q)*
+
+*program for work keybinds*
+```bash
+sudo pacman -S dmenu xclip maim playerctl
+```
