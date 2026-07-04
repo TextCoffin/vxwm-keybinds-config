@@ -12,6 +12,6 @@ mv ~/vxwm/vxwm-keybinds-config/config.h ~/vxwm
 rm -rf ~/vxwm/vxwm-keybinds-config
 sudo make clean install
 #program for work keybinds
-sudo pacman -S dmenu xclip maim playerctl
+sudo pacman -S dmenu xclip maim playerctl kitty
 ```
 *and you need exit the session(ctrl+super+alt+q)*
