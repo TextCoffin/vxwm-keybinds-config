@@ -1,6 +1,6 @@
 #pragma once
 /*program whitch you need(for me!)*/
-/*sudo pacman -S dmenu xclip maim playerctl*/
+/*sudo pacman -S dmenu xclip maim playerctl kitty*/
 
 /*okay sure, here lists of keybinds
 super+shift+
@@ -26,7 +26,13 @@ x - last track
 c - pause music
 v - next track
 
-ctr+super+alt - exit session
+super+ctrl+
+1-9 - show programs into another work spaces
+
+super+ctrl+shift+
+1-9 - link the window to multiple tables at once1
+
+ctrl+super+alt - exit session
 */
 
 
