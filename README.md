@@ -1,4 +1,4 @@
-# vxwm keybinds config *1.1.1*
+# vxwm keybinds config *1.1.2*
 *vxwm repo - https://github.com/wh1tepearll/vxwm.git*
 
 
