@@ -3,14 +3,7 @@
 /*sudo pacman -S dmenu xclip maim playerctl kitty*/
 
 /*okay sure, here lists of keybinds
-super+shift+
-s - screenshot(fast screenshot)
-c - close the program
-q - fullscreen
-w - terminal
-enter - terminal
-1-9 - move program to work space
-
+0========================================
 super+
 z - zoom to active program
 w - dmenu mode(browse program)
@@ -20,19 +13,30 @@ r - move to x0 y0 coordinate
 b - hide dmenu bar
 1-9 - you may be guess
 tab - show 1-9 window
-
+1========================================
+super+shift+
+s - screenshot(fast screenshot)
+c - close the program
+q - fullscreen
+w - terminal
+enter - terminal
+1-9 - move program to work space
+2========================================
 alt+
 x - last track
 c - pause music
 v - next track
-
+3========================================
+super+alt+
+s - full screenshot
+4========================================
 super+ctrl+
 1-9 - show programs into another work spaces
-
+5========================================
 super+ctrl+shift+
 1-9 - link the window to multiple tables at once1
-
-ctrl+super+alt - exit session
+6========================================
+super+ctrl+alt - exit session
 */
 
 
@@ -167,7 +171,7 @@ static const Key keys[] = {
 	{ Mod1Mask, XK_x, spawn, {.v = mediaprevcmd} },
 
 	{ Mod4Mask|ShiftMask, XK_s, spawn, {.v = screenshot_select_clip } },
-        /*super+shift+bind*/
+    { MODKEY|Mod1Mask,  XK_s,  spawn,          SHCMD("maim | xclip -selection clipboard -t image/png") },
 
 
 	/* modifier                     key        function        argument */
