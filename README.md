@@ -18,8 +18,8 @@ sudo pacman -S dmenu xclip maim playerctl kitty
 
 list of keybinds
 *it list has in the config.h*
-<sub></pre>
-0========================================
+*
+0========
 super+
 z - zoom to active program
 w - dmenu mode(browse program)
@@ -29,7 +29,7 @@ r - move to x0 y0 coordinate
 b - hide dmenu bar
 1-9 - you may be guess
 tab - show 1-9 window
-1========================================
+1========
 super+shift+
 s - screenshot(fast screenshot)
 c - close the program
@@ -37,20 +37,20 @@ q - fullscreen
 w - terminal
 enter - terminal
 1-9 - move program to work space
-2========================================
+2========
 alt+
 x - last track
 c - pause music
 v - next track
-3========================================
+3========
 super+alt+
 s - full screenshot
-4========================================
+4========
 super+ctrl+
 1-9 - show programs into another work spaces
-5========================================
+5========
 super+ctrl+shift+
 1-9 - link the window to multiple tables at once1
-6========================================
+6========
 super+ctrl+alt - exit session
-</pre></sub>
+*
