@@ -18,7 +18,7 @@ sudo pacman -S dmenu xclip maim playerctl kitty
 
 list of keybinds
 *it list has in the config.h*
-<small>
+<sub>
 0========================================
 super+
 z - zoom to active program
@@ -53,4 +53,4 @@ super+ctrl+shift+
 1-9 - link the window to multiple tables at once1
 6========================================
 super+ctrl+alt - exit session
-</small>
+</sub>
