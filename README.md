@@ -21,44 +21,44 @@ list of keybinds
 <details>
   <summary>click here</summary>
   <br>
-0========
-super+
-z - zoom to active program
-w - dmenu mode(browse program)
-a/d - switch the program(may be useful if you lost your window)
-space - set preset 0, and try f, t
-r - move to x0 y0 coordinate
-b - hide dmenu bar
-1-9 - you may be guess
-tab - show 1-9 window
+0======== <br>
+super+ <br>
+z - zoom to active program <br>
+w - dmenu mode(browse program) <br>
+a/d - switch the program(may be useful if you lost your window) <br>
+space - set preset 0, and try f, t <br>
+r - move to x0 y0 coordinate <br>
+b - hide dmenu bar <br>
+1-9 - you may be guess <br>
+tab - show 1-9 window <br>
 
-1========
-super+shift+
-s - screenshot(fast screenshot)
-c - close the program
-q - fullscreen
-w - terminal
-enter - terminal
-1-9 - move program to work space
+1======== <br>
+super+shift+ <br>
+s - screenshot(fast screenshot) <br>
+c - close the program <br>
+q - fullscreen <br>
+w - terminal <br>
+enter - terminal <br>
+1-9 - move program to work space <br>
 
-2========
-alt+
-x - last track
-c - pause music
-v - next track
+2======== <br>
+alt+ <br>
+x - last track <br>
+c - pause music <br>
+v - next track <br>
 
-3========
-super+alt+
-s - full screenshot
+3======== <br>
+super+alt+ <br>
+s - full screenshot <br>
 
-4========
-super+ctrl+
-1-9 - show programs into another work spaces
+4======== <br>
+super+ctrl+ <br>
+1-9 - show programs into another work spaces <br>
 
-5========
-super+ctrl+shift+
-1-9 - link the window to multiple tables at once1
+5======== <br>
+super+ctrl+shift+ <br>
+1-9 - link the window to multiple tables at once1 <br>
 
-6========
-super+ctrl+alt - exit session
+6======== <br>
+super+ctrl+alt - exit session <br>
 </details>
