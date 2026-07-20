@@ -18,7 +18,9 @@ sudo pacman -S dmenu xclip maim playerctl kitty
 
 list of keybinds
 *it list has in the config.h*
-
+<details>
+  <summary>click here</summary>
+  <br>
 0========
 super+
 z - zoom to active program
@@ -59,4 +61,4 @@ super+ctrl+shift+
 
 6========
 super+ctrl+alt - exit session
-
+</details>
