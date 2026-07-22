@@ -10,7 +10,7 @@ cd ~/vxwm
 git clone -b custom https://github.com/TextCoffin/vxwm-keybinds-config.git
 rm -rf config.h
 mv ~/vxwm/vxwm-keybinds-config/config.h ~/vxwm
-mv ~vxwm/vxwm-keybinds-config/custom ~/vxwm
+mv ~/vxwm/vxwm-keybinds-config/custom ~/vxwm
 rm -rf ~/vxwm/vxwm-keybinds-config
 sudo make clean install
 #program for work keybinds
