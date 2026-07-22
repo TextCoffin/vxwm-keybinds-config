@@ -1,5 +1,5 @@
 # CUSTOM branch
-# vxwm keybinds config *1.1.2*
+# vxwm keybinds config *1.1.3*
 *vxwm repo - https://github.com/wh1tepearll/vxwm.git*
 
 
