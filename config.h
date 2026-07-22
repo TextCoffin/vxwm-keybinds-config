@@ -49,7 +49,6 @@ static const char *medianextcmd[] = { "playerctl", "next", NULL };
 static const char *mediaprevcmd[] = { "playerctl", "previous", NULL };
 /* screenshots - xclip maim */
 static const char *screenshot_select_clip[] = { "sh", "-c", "maim -s | xclip -selection clipboard -t image/png", NULL };
-static const char *screenshot_collage_cmd[] = { "~/vxwm/custom/screenshot_all.sh", NULL };
 
 
 /* appearance */
@@ -173,7 +172,7 @@ static const Key keys[] = {
 
 	{ Mod4Mask|ShiftMask, XK_s, spawn, {.v = screenshot_select_clip } },
     { MODKEY|Mod1Mask,  XK_s,  spawn,          SHCMD("maim | xclip -selection clipboard -t image/png") },
-	{ MODKEY|ControlMask, XK_s, spawn, {.v = screenshot_collage_cmd} },
+	{ MODKEY|ControlMask, XK_s, spawn, SHCMD("~/vxwm/custom/screenshot_all.sh") },
 
 
 	/* modifier                     key        function        argument */
