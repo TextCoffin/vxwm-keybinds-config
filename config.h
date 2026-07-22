@@ -32,6 +32,7 @@ s - full screenshot
 4========================================
 super+ctrl+
 1-9 - show programs into another work spaces
+s - screenshot everything active work spaces
 5========================================
 super+ctrl+shift+
 1-9 - link the window to multiple tables at once1
@@ -48,7 +49,7 @@ static const char *medianextcmd[] = { "playerctl", "next", NULL };
 static const char *mediaprevcmd[] = { "playerctl", "previous", NULL };
 /* screenshots - xclip maim */
 static const char *screenshot_select_clip[] = { "sh", "-c", "maim -s | xclip -selection clipboard -t image/png", NULL };
-
+static const char *screenshot_collage_cmd[] = { "~/vxwm/custom/screenshot_all.sh", NULL };
 
 
 /* appearance */
@@ -172,6 +173,7 @@ static const Key keys[] = {
 
 	{ Mod4Mask|ShiftMask, XK_s, spawn, {.v = screenshot_select_clip } },
     { MODKEY|Mod1Mask,  XK_s,  spawn,          SHCMD("maim | xclip -selection clipboard -t image/png") },
+	{ MODKEY|ControlMask, XK_s, spawn, {.v = screenshot_collage_cmd} },
 
 
 	/* modifier                     key        function        argument */
