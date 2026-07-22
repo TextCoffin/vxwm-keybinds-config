@@ -7,13 +7,14 @@
 *arch linux*
 ```bash
 cd ~/vxwm
-git clone https://github.com/TextCoffin/vxwm-keybinds-config.git
+git clone -b custom https://github.com/TextCoffin/vxwm-keybinds-config.git
 rm -rf config.h
 mv ~/vxwm/vxwm-keybinds-config/config.h ~/vxwm
+mv ~vxwm/vxwm-keybinds-config/custom ~/vxwm
 rm -rf ~/vxwm/vxwm-keybinds-config
 sudo make clean install
 #program for work keybinds
-sudo pacman -S dmenu xclip maim playerctl kitty
+sudo pacman -S dmenu xclip maim playerctl kitty wmctrl xdotool imagemagick
 ```
 *and you need exit the session(ctrl+super+alt+q)*
 
@@ -55,6 +56,7 @@ s - full screenshot <br>
 4======== <br>
 super+ctrl+ <br>
 1-9 - show programs into another work spaces <br>
+s - screensot active work spaces <br>
 
 5======== <br>
 super+ctrl+shift+ <br>
