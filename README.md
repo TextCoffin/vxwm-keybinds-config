@@ -58,8 +58,7 @@ super+ctrl+ <br>
 1-9 - show programs into another work spaces <br>
 <details>
   <summary>s - screensot active work spaces</summary> 
-  <br>
-![active](https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/screen-active-workspaces.png?raw=true)
+<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/screen-active-workspaces.png?raw=true" width="100%">
 </details>
 <br>
 5======== <br>
