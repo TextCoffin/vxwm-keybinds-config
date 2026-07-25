@@ -56,8 +56,12 @@ s - full screenshot <br>
 4======== <br>
 super+ctrl+ <br>
 1-9 - show programs into another work spaces <br>
-s - screensot active work spaces <br>
-
+<details>
+  <summary>s - screensot active work spaces</summary> 
+  <br>
+![active](https://raw.githubusercontent.com/TextCoffin/preview-of-my-keybinds-config/refs/heads/main/screen-active-workspaces.png)
+</details>
+<br>
 5======== <br>
 super+ctrl+shift+ <br>
 1-9 - link the window to multiple tables at once1 <br>
