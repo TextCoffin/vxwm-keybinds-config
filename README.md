@@ -1,6 +1,6 @@
 # CUSTOM branch
 # vxwm keybinds config *1.1.4*
-*vxwm repo - https://github.com/wh1tepearll/vxwm.git*
+*vxwm repo - https://github.com/wh1tepearll/vxwm.git* <br>
 *vxwm vcompgr - https://codeberg.org/wh1tepearl/vcompmgr.git*
 
 
@@ -15,6 +15,7 @@ mv ~/vxwm/vxwm-keybinds-config/custom ~/vxwm
 rm -rf ~/vxwm/vxwm-keybinds-config
 sudo make clean install
 git clone https://codeberg.org/wh1tepearl/vcompmgr.git
+cd vcompmgr/
 make
 sudo make install
 #program for work keybinds
