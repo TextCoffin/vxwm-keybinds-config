@@ -1,6 +1,7 @@
 #pragma once
 /*program whitch you need(for me!)*/
-/*sudo pacman -S dmenu xclip maim playerctl kitty*/
+/*sudo pacman -S dmenu xclip maim playerctl kitty bc*/
+/**/
 
 /*okay sure, here lists of keybinds
 0========================================
@@ -21,6 +22,7 @@ q - fullscreen
 w - terminal
 enter - terminal
 1-9 - move program to work space
+mouse scroll - zoom
 2========================================
 alt+
 x - last track
@@ -273,4 +275,10 @@ static const Button buttons[] = {
 	{ ClkTagBar,            0,              Button3,        toggleview,     {0} },
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
+    /* control canvas - zoom via zooc - super+shift+mousescroll*/
+    /* vcompmgr + bc */
+    { ClkClientWin,         MODKEY|ShiftMask,         Button4,        spawn,          SHCMD("vcompmgr -Z $(echo \"$(vcompmgr -G) + 0.1\" | bc)") },
+    { ClkClientWin,         MODKEY|ShiftMask,         Button5,        spawn,          SHCMD("vcompmgr -Z $(echo \"$(vcompmgr -G) - 0.1\" | bc)") },
+    { ClkRootWin,           MODKEY|ShiftMask,         Button4,        spawn,          SHCMD("vcompmgr -Z $(echo \"$(vcompmgr -G) + 0.1\" | bc)") },
+    { ClkRootWin,           MODKEY|ShiftMask,         Button5,        spawn,          SHCMD("vcompmgr -Z $(echo \"$(vcompmgr -G) - 0.1\" | bc)") },
 };
