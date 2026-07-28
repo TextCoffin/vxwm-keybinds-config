@@ -1,6 +1,7 @@
 # CUSTOM branch
-# vxwm keybinds config *1.1.3*
+# vxwm keybinds config *1.1.4*
 *vxwm repo - https://github.com/wh1tepearll/vxwm.git*
+*vxwm vcompgr - https://codeberg.org/wh1tepearl/vcompmgr.git*
 
 
 # WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!
@@ -13,8 +14,11 @@ mv ~/vxwm/vxwm-keybinds-config/config.h ~/vxwm
 mv ~/vxwm/vxwm-keybinds-config/custom ~/vxwm
 rm -rf ~/vxwm/vxwm-keybinds-config
 sudo make clean install
+git clone https://codeberg.org/wh1tepearl/vcompmgr.git
+make
+sudo make install
 #program for work keybinds
-sudo pacman -S dmenu xclip maim playerctl kitty wmctrl xdotool imagemagick
+sudo pacman -S dmenu xclip maim playerctl kitty wmctrl xdotool imagemagick bc
 ```
 *and you need exit the session(ctrl+super+alt+q)*
 
@@ -42,7 +46,11 @@ q - fullscreen <br>
 w - terminal <br>
 enter - terminal <br>
 1-9 - move program to work space <br>
-
+<details>
+  <summary> mouse scroll - zoom </summary>
+<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/zoom-preview.gif" width="100%">
+</details>
+<br>
 2======== <br>
 alt+ <br>
 x - last track <br>
