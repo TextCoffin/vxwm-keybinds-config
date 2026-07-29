@@ -23,6 +23,7 @@ w - terminal
 enter - terminal
 1-9 - move program to work space
 mouse scroll - zoom
+mouse scroll button - reset zoom
 2========================================
 alt+
 x - last track
@@ -281,4 +282,7 @@ static const Button buttons[] = {
     { ClkClientWin,         MODKEY|ShiftMask,         Button5,        spawn,          SHCMD("vcompmgr -Z $(echo \"$(vcompmgr -G) - 0.1\" | bc)") },
     { ClkRootWin,           MODKEY|ShiftMask,         Button4,        spawn,          SHCMD("vcompmgr -Z $(echo \"$(vcompmgr -G) + 0.1\" | bc)") },
     { ClkRootWin,           MODKEY|ShiftMask,         Button5,        spawn,          SHCMD("vcompmgr -Z $(echo \"$(vcompmgr -G) - 0.1\" | bc)") },
+    /* reset the zoom super+shift+scroll button */
+    { ClkClientWin,         MODKEY|ShiftMask,         Button2,        spawn,          SHCMD("vcompmgr -Z 1") },
+    { ClkRootWin,           MODKEY|ShiftMask,         Button2,        spawn,          SHCMD("vcompmgr -Z 1") },
 };
