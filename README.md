@@ -1,5 +1,5 @@
 # CUSTOM branch
-# vxwm keybinds config *1.1.5*
+# vxwm keybinds config *1.1.6*
 *vxwm repo - https://github.com/wh1tepearll/vxwm.git* <br>
 *vxwm vcompgr - https://codeberg.org/wh1tepearl/vcompmgr.git*
 
@@ -38,7 +38,10 @@ r - move to x0 y0 coordinate <br>
 b - hide dmenu bar <br>
 1-9 - you may be guess <br>
 tab - show 1-9 window <br>
-
+<details>
+  <summary>mouse scroll - switch work spaces</summary>
+<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/switch-work-spaces.gif" width="100%">
+</details> <br>
 1======== <br>
 super+shift+ <br>
 s - screenshot(fast screenshot) <br>
@@ -50,13 +53,11 @@ enter - terminal <br>
 <details>
   <summary> mouse scroll - zoom </summary>
 <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/zoom-preview.gif" width="100%">
-</details>
-<br>
+</details> <br>
 <details>
   <summary>mouse scroll button - reset zoom</summary>
 <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/reset-zoom.gif" width="100%">
-</details>
-<br>
+</details> <br>
 2======== <br>
 alt+ <br>
 x - last track <br>
@@ -73,8 +74,7 @@ super+ctrl+ <br>
 <details>
   <summary>s - screensot active work spaces</summary> 
 <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/screen-active-workspaces.png?raw=true" width="100%">
-</details>
-<br>
+</details> <br>
 5======== <br>
 super+ctrl+shift+ <br>
 1-9 - link the window to multiple tables at once1 <br>
