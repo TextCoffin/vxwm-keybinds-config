@@ -1,5 +1,5 @@
 # CUSTOM branch
-# vxwm keybinds config *1.1.4*
+# vxwm keybinds config *1.1.5*
 *vxwm repo - https://github.com/wh1tepearll/vxwm.git* <br>
 *vxwm vcompgr - https://codeberg.org/wh1tepearl/vcompmgr.git*
 
@@ -50,6 +50,11 @@ enter - terminal <br>
 <details>
   <summary> mouse scroll - zoom </summary>
 <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/zoom-preview.gif" width="100%">
+</details>
+<br>
+<details>
+  <summary>mouse scroll button - reset zoom</summary>
+<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/reset-zoom.gif" width="100%">
 </details>
 <br>
 2======== <br>
