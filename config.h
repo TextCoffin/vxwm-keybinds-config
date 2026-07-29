@@ -285,4 +285,9 @@ static const Button buttons[] = {
     /* reset the zoom super+shift+scroll button */
     { ClkClientWin,         MODKEY|ShiftMask,         Button2,        spawn,          SHCMD("vcompmgr -Z 1") },
     { ClkRootWin,           MODKEY|ShiftMask,         Button2,        spawn,          SHCMD("vcompmgr -Z 1") },
+    /* switch work space - super + mouse scrool */
+    { ClkClientWin,         MODKEY,         Button4,        spawn,          SHCMD("~/vxwm/custom/vxwm_switch.sh prev") },
+    { ClkClientWin,         MODKEY,         Button5,        spawn,          SHCMD("~/vxwm/custom/vxwm_switch.sh next") },
+    { ClkRootWin,           MODKEY,         Button4,        spawn,          SHCMD("~/vxwm/custom/vxwm_switch.sh prev") },
+    { ClkRootWin,           MODKEY,         Button5,        spawn,          SHCMD("~/vxwm/custom/vxwm_switch.sh next") },
 };
