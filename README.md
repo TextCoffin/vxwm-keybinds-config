@@ -21,8 +21,8 @@ sudo make install
 #program for work keybinds
 sudo pacman -S dmenu xclip maim playerctl kitty wmctrl xdotool imagemagick bc
 ```
-*nixos*
-*A guide from my friend - https://github.com/prizduk/vxwm-on-NixOS*
+*nixos* <br>
+*A guide from my friend - https://github.com/prizduk/vxwm-on-NixOS* <br>
 *and you need exit the session(ctrl+super+alt+q)*
 
 list of keybinds
