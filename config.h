@@ -1,58 +1,12 @@
 #pragma once
-/*program whitch you need(for me!)*/
-/*sudo pacman -S dmenu xclip maim playerctl kitty bc*/
-/**/
-
-/*okay sure, here lists of keybinds
-0========================================
-super+
-z - zoom to active program
-w - dmenu mode(browse program)
-a/d - switch the program(may be useful if you lost your window)
-space - set preset 0, and try f, t
-r - move to x0 y0 coordinate
-b - hide dmenu bar
-1-9 - you may be guess
-tab - show 1-9 window
-1========================================
-super+shift+
-s - screenshot(fast screenshot)
-c - close the program
-q - fullscreen
-w - terminal
-enter - terminal
-1-9 - move program to work space
-mouse scroll - zoom
-mouse scroll button - reset zoom
-2========================================
-alt+
-x - last track
-c - pause music
-v - next track
-3========================================
-super+alt+
-s - full screenshot
-4========================================
-super+ctrl+
-1-9 - show programs into another work spaces
-s - screenshot everything active work spaces
-5========================================
-super+ctrl+shift+
-1-9 - link the window to multiple tables at once1
-6========================================
-super+ctrl+alt - exit session
-*/
-
-
 /* See LICENSE file for copyright and license details. */
-/*link on author - https://github.com/wh1tepearll/vxwm/tree/main*/
+
 /* music const's */
 static const char *mediapausecmd[] = { "playerctl", "play-pause", NULL };
 static const char *medianextcmd[] = { "playerctl", "next", NULL };
 static const char *mediaprevcmd[] = { "playerctl", "previous", NULL };
-/* screenshots - xclip maim */
-static const char *screenshot_select_clip[] = { "sh", "-c", "maim -s | xclip -selection clipboard -t image/png", NULL };
 
+static const char *screenshot_select_clip[] = { "sh", "-c", "maim -s | xclip -selection clipboard -t image/png", NULL };
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
@@ -179,10 +133,9 @@ static const Key keys[] = {
 
 
 	/* modifier                     key        function        argument */
-	/*dmenu bar*/
-        { MODKEY,                       XK_w,      spawn,          {.v = dmenucmd } },
-  { MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
-  { MODKEY|ShiftMask,             XK_w, spawn,          {.v = termcmd } },
+	{ MODKEY,                       XK_w,      spawn,          {.v = dmenucmd } },
+	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY|ShiftMask,             XK_w, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_a,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_s,      focusstack,     {.i = -1 } },
