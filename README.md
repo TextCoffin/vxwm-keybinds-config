@@ -84,3 +84,4 @@ super+ctrl+shift+ <br>
 6======== <br>
 super+ctrl+alt - exit session <br>
 </details>
+if you want use another terminal edit this string - https://github.com/TextCoffin/vxwm-keybinds-config/blob/3f08700c98e2109aeb69751b34191e7ee94a45f0/config.h#L121
