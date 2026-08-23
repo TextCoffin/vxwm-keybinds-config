@@ -65,3 +65,10 @@ super+ctrl+shift+ <br>
 6======== <br>
 super+ctrl+alt - exit session <br>
 </details>
+if you want use another terminal, edit this string - https://github.com/TextCoffin/vxwm-keybinds-config/blob/aadc16b491702142a1a247fab9de63a098659fe2/config.h#L120
+if you want to use rofi or another launcher, edit this string - https://github.com/TextCoffin/vxwm-keybinds-config/blob/aadc16b491702142a1a247fab9de63a098659fe2/config.h#L118
+to like this
+
+```bash
+static const char *dmenucmd[] = { "rofi", "-show", "run", NULL };
+```
