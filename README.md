@@ -87,6 +87,7 @@ super+ctrl+alt - exit session <br>
 if you want use another terminal, edit this string - https://github.com/TextCoffin/vxwm-keybinds-config/blob/3f08700c98e2109aeb69751b34191e7ee94a45f0/config.h#L121 <br>
 if you want to use rofi or another launcher, edit this string - https://github.com/TextCoffin/vxwm-keybinds-config/blob/df381fd24922e5c7240be96f8d35c0c7faf1c8f4/config.h#L119
 to like this
+
 ```bash
 static const char *dmenucmd[] = { "rofi", "-show", "run", NULL };
 ```
