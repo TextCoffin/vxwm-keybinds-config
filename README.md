@@ -56,7 +56,7 @@ enter - terminal <br>
 </details>
 <details>
   <summary>MOUSE scroll button - reset zoom</summary>
-<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/keybinds/zoom-preview.gif" width="100%">
+<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/keybinds/reset-zoom.gif" width="100%">
 </details> <br>
 2======== <br>
 alt+ <br>
