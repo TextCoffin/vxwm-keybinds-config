@@ -4,25 +4,10 @@
 *vxwm vcompgr - https://codeberg.org/wh1tepearl/vcompmgr.git*
 
 
-# WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!
-*arch linux*
-```bash
-cd ~/vxwm
-git clone -b custom https://github.com/TextCoffin/vxwm-keybinds-config.git
-rm -rf config.h
-mv ~/vxwm/vxwm-keybinds-config/config.h ~/vxwm
-mv ~/vxwm/vxwm-keybinds-config/custom ~/vxwm
-rm -rf ~/vxwm/vxwm-keybinds-config
-sudo make clean install
-git clone https://codeberg.org/wh1tepearl/vcompmgr.git
-cd vcompmgr/
-make
-sudo make install
-#program for work keybinds
-sudo pacman -S dmenu xclip maim playerctl kitty wmctrl xdotool imagemagick bc
-```
-*nixos* <br>
-*A guide from my friend - https://github.com/prizduk/vxwm-on-NixOS* <br>
+# !WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!
+
+# install
+# https://github.com/TextCoffin/reponstall.git
 *and you need exit the session(ctrl+super+alt+q)*
 
 <details>
