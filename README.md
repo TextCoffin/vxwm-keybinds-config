@@ -52,7 +52,7 @@ enter - terminal <br>
 1-9 - move program to work space <br>
 <details>
   <summary>MOUSE scroll - zoom </summary>
-<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/zoom-preview.gif" width="100%">
+<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/keybinds/zoom-preview.gif" width="100%">
 </details>
 <details>
   <summary>MOUSE scroll button - reset zoom</summary>
