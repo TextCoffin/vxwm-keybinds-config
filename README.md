@@ -25,10 +25,8 @@ sudo pacman -S dmenu xclip maim playerctl kitty wmctrl xdotool imagemagick bc
 *A guide from my friend - https://github.com/prizduk/vxwm-on-NixOS* <br>
 *and you need exit the session(ctrl+super+alt+q)*
 
-list of keybinds
-*it list has in the config.h*
 <details>
-  <summary>click here</summary>
+  <summary>LIST OF KEYBINDS</summary>
   <br>
 0======== <br>
 super+ <br>
@@ -41,8 +39,8 @@ b - hide dmenu bar <br>
 1-9 - you may be guess <br>
 tab - show 1-9 window <br>
 <details>
-  <summary>mouse scroll - switch work spaces</summary>
-<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/switch-work-spaces.gif" width="100%">
+  <summary>MOUSE scroll - switch work spaces</summary>
+<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/keybinds/switch-work-spaces.gif" width="100%">
 </details> <br>
 1======== <br>
 super+shift+ <br>
@@ -53,12 +51,12 @@ w - terminal <br>
 enter - terminal <br>
 1-9 - move program to work space <br>
 <details>
-  <summary> mouse scroll - zoom </summary>
+  <summary>MOUSE scroll - zoom </summary>
 <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/zoom-preview.gif" width="100%">
-</details> <br>
+</details>
 <details>
-  <summary>mouse scroll button - reset zoom</summary>
-<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/reset-zoom.gif" width="100%">
+  <summary>MOUSE scroll button - reset zoom</summary>
+<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/keybinds/zoom-preview.gif" width="100%">
 </details> <br>
 2======== <br>
 alt+ <br>
@@ -74,8 +72,8 @@ s - full screenshot <br>
 super+ctrl+ <br>
 1-9 - show programs into another work spaces <br>
 <details>
-  <summary>s - screensot active work spaces</summary> 
-<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/screen-active-workspaces.png?raw=true" width="100%">
+  <summary>S - screensot active work spaces</summary> 
+<img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/keybinds/screen-active-workspaces.png" width="100%">
 </details> <br>
 5======== <br>
 super+ctrl+shift+ <br>
@@ -84,6 +82,9 @@ super+ctrl+shift+ <br>
 6======== <br>
 super+ctrl+alt - exit session <br>
 </details>
+
+<details>
+  <summary>ADVICES</summary>
 if you want use another terminal, edit this string - https://github.com/TextCoffin/vxwm-keybinds-config/blob/3f08700c98e2109aeb69751b34191e7ee94a45f0/config.h#L121 <br>
 if you want to use rofi or another launcher, edit this string - https://github.com/TextCoffin/vxwm-keybinds-config/blob/df381fd24922e5c7240be96f8d35c0c7faf1c8f4/config.h#L119
 to like this
@@ -91,3 +92,11 @@ to like this
 ```bash
 static const char *dmenucmd[] = { "rofi", "-show", "run", NULL };
 ```
+<details>
+  <summary>ACTIVE/INACTIVE window</summary>
+  <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/advices/active_inactive_window.png" width="100%"> <br>
+  inactive border color - https://github.com/TextCoffin/vxwm-keybinds-config/blob/39860b0053e3a5afcdba9c2e34049fce9ad57511/config.h#L21 <br>
+  active border color - https://github.com/TextCoffin/vxwm-keybinds-config/blob/39860b0053e3a5afcdba9c2e34049fce9ad57511/config.h#L24 <br>
+</details>
+test end
+</details>
