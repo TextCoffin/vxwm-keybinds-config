@@ -70,8 +70,10 @@ super+ctrl+alt - exit session <br>
 
 <details>
   <summary>ADVICES</summary>
-if you want use another terminal, edit this string - https://github.com/TextCoffin/vxwm-keybinds-config/blob/3f08700c98e2109aeb69751b34191e7ee94a45f0/config.h#L121 <br>
-if you want to use rofi or another launcher, edit this string - https://github.com/TextCoffin/vxwm-keybinds-config/blob/df381fd24922e5c7240be96f8d35c0c7faf1c8f4/config.h#L119
+if you want use another terminal, edit this string
+  https://github.com/TextCoffin/vxwm-keybinds-config/blob/3f08700c98e2109aeb69751b34191e7ee94a45f0/config.h#L121 <br>
+if you want to use rofi or another launcher, edit this string 
+  https://github.com/TextCoffin/vxwm-keybinds-config/blob/df381fd24922e5c7240be96f8d35c0c7faf1c8f4/config.h#L119
 to like this
 
 ```bash
@@ -82,6 +84,38 @@ static const char *dmenucmd[] = { "rofi", "-show", "run", NULL };
   <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/advices/active_inactive_window.png" width="100%"> <br>
   inactive border color - https://github.com/TextCoffin/vxwm-keybinds-config/blob/39860b0053e3a5afcdba9c2e34049fce9ad57511/config.h#L21 <br>
   active border color - https://github.com/TextCoffin/vxwm-keybinds-config/blob/39860b0053e3a5afcdba9c2e34049fce9ad57511/config.h#L24 <br>
+
+  i uses ```#260069``` for inactive <br>
+  and ```#5e03fc``` for active
+</details>
+<details>
+  <summary>BAR</summary>
+  <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/advices/bar_0.png" width="100%"> <br>
+  hide bar - 0 <br>
+  <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/advices/bar_1.png" width="100%"> <br>
+  show bar - 1 <br>
+  you can hide bar use https://github.com/TextCoffin/vxwm-keybinds-config/blob/4e2229a46403e2df8c157401d30692924744425d/README.md?plain=1#L23 <br>
+  show bar 0-1 - https://github.com/TextCoffin/vxwm-keybinds-config/blob/4e2229a46403e2df8c157401d30692924744425d/config.h#L14 <br>
+  <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/advices/font_of_dmenu_15.png" width="100%">
+  bar font
+  if you need set font for bar
+  https://github.com/TextCoffin/vxwm-keybinds-config/blob/4e2229a46403e2df8c157401d30692924744425d/config.h#L16 <br>
+  and
+  https://github.com/TextCoffin/vxwm-keybinds-config/blob/4e2229a46403e2df8c157401d30692924744425d/config.h#L17 <br>
+
+  <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/advices/topbar_0.png" width="100%">
+  topbar - 0 <br>
+  <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/advices/topbar_1.png" width="100%">
+  topbar - 1 <br>
+</details>
+<details>
+  <summary>BORDER</summary>
+  <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/advices/borderpx3.png" width="100%">
+  border px - 3
+  <img src="https://github.com/TextCoffin/preview-of-my-keybinds-config/blob/main/advices/borderpx10.png" width="100%">
+  border px - 10
+  for it edit this string
+  https://github.com/TextCoffin/vxwm-keybinds-config/blob/4e2229a46403e2df8c157401d30692924744425d/config.h#L12 <br>
 </details>
 test end
 </details>
