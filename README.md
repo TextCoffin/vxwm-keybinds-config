@@ -1,16 +1,14 @@
 # vxwm keybinds config *1.1.2*
 
-*WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!* 
-👇install👇😲
-https://github.com/TextCoffin/reponstall.git
+*WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!* <br>
+👇install👇😲 <br>
+https://github.com/TextCoffin/reponstall.git <br>
 
-*vxwm repo - https://github.com/wh1tepearll/vxwm.git*
-*and you need exit the session(ctrl+super+alt+q)*
+*vxwm repo - https://github.com/wh1tepearll/vxwm.git* <br>
+*and you need exit the session(ctrl+super+alt+q)* <br>
 
-list of keybinds
-*it list has in the config.h*
 <details>
-  <summary>click here</summary>
+  <summary>LIST OF KEYBINDS</summary>
   <br>
 0======== <br>
 super+ <br>
