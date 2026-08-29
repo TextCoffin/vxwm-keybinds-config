@@ -1,10 +1,12 @@
 # vxwm keybinds config *1.1.2*
 
-*WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!* <br>
-👇install👇😲 <br>
+*WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!*
+
+# install <br>
 https://github.com/TextCoffin/reponstall.git <br>
 
 *vxwm repo - https://github.com/wh1tepearll/vxwm.git* <br>
+
 *and you need exit the session(ctrl+super+alt+q)* <br>
 
 <details>
