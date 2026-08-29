@@ -1,15 +1,15 @@
 # CUSTOM branch
 # vxwm keybinds config *1.1.6*
+
+*!WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!*
+
+# install <br>
+https://github.com/TextCoffin/reponstall.git <br>
+
 *vxwm repo - https://github.com/wh1tepearll/vxwm.git* <br>
-*vxwm vcompgr - https://codeberg.org/wh1tepearl/vcompmgr.git*
+*vxwm vcompgr - https://codeberg.org/wh1tepearl/vcompmgr.git* <br>
 
-
-# !WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!
-
-# install
-# https://github.com/TextCoffin/reponstall.git
-*and you need exit the session(ctrl+super+alt+q)*
-
+*and you need exit the session(ctrl+super+alt+q)* <br>
 <details>
   <summary>LIST OF KEYBINDS</summary>
   <br>
