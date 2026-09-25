@@ -127,15 +127,15 @@ static const Key keys[] = {
 	{ Mod1Mask, XK_v, spawn, {.v = medianextcmd} },
 	{ Mod1Mask, XK_x, spawn, {.v = mediaprevcmd} },
 
-	{ Mod4Mask|ShiftMask, XK_s, spawn, {.v = screenshot_select_clip } },
-    { MODKEY|Mod1Mask,  XK_s,  spawn,          SHCMD("maim | xclip -selection clipboard -t image/png") },
-	{ MODKEY|ControlMask, XK_s, spawn, SHCMD("~/vxwm/custom/screenshot_all.sh") },
-
+	{ Mod4Mask|ShiftMask,	XK_s,	spawn,	{.v = screenshot_select_clip } },
+	{ MODKEY|Mod1Mask,	XK_s,	spawn,	SHCMD("maim | xclip -selection clipboard -t image/png") },
+	{ MODKEY|ControlMask,	XK_s,	spawn,	SHCMD("~/vxwm/custom/screenshot_all.sh") },
+	{ MODKEY|ControlMask,	XK_b,	spawn,	SHCMD("~/vxwm/custom/wallpapers_change.sh") },
 
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_w,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
-	{ MODKEY|ShiftMask,             XK_w, spawn,          {.v = termcmd } },
+	{ MODKEY|ShiftMask,             XK_w,	spawn,		{.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_a,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_s,      focusstack,     {.i = -1 } },

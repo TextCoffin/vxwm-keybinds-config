@@ -1,5 +1,5 @@
 # CUSTOM branch
-# vxwm keybinds config *1.1.6*
+# vxwm keybinds config *1.1.7*
 
 *!WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!*
 
