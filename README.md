@@ -2,10 +2,9 @@
 
 *WARNING! YOU USE THIS AT YOUR OWN RISK! THIS IS YOUR RESPONSIBILITY!*
 
-# install <br>
-https://github.com/TextCoffin/reponstall.git <br>
+# [install](https://github.com/TextCoffin/reponstall.git)
 
-*vxwm repo - https://github.com/wh1tepearll/vxwm.git* <br>
+*[vxwm repopository](https://github.com/wh1tepearll/vxwm.git)* <br>
 
 *and you need exit the session(ctrl+super+alt+q)* <br>
 
